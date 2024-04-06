@@ -10,7 +10,7 @@ will load you list of cities in that country. When you select city it will load 
 ## Architecture
 
 Here used clean architecture. Presentation->Domain->Data
-But I've removed usecases and entities from domain layer because there was no need for extra
+But I've removed _usecases_ and _entities_ from domain layer because there was no need for extra
 complication
 For state management used Bloc library
 
