@@ -45,6 +45,10 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+## Format
+IDE:
+- Do change line Length to 100. "Settings -> Editor -> Code Style -> Dart" set "Line Length" to 100
+
 ## Built With
 
 * [Flutter](https://flutter.dev/) - The framework used
