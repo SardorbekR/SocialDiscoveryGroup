@@ -1,0 +1,17 @@
+include: package:lint/strict.yaml
+
+analyzer:
+  exclude:
+    - '**.freezed.dart'
+    - '**.g.dart'
+    - '**.gr.dart'
+    - '**.auth_bloc_mock.dart'
+    - '**.mocks.dart'
+    - '**.injectable.dart'
+linter:
+  rules:
+    avoid_multiple_declarations_per_line: false
+    cascade_invocations: true
+    sort_pub_dependencies: false
+    constant_identifier_names: false
+    depend_on_referenced_packages: false
