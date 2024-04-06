@@ -1,0 +1,5 @@
+{
+  "environment": "prod",
+  "baseUrl": "https://api.stagingcupid.com/api/v1",
+  "sentryDSN": "SET_YOUR_SENTRY_DSN"
+}
