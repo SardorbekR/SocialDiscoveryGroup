@@ -13,12 +13,15 @@ Here used clean architecture. Presentation->Domain->Data
 But I've removed usecases and entities from domain layer because there was no need for extra
 complication
 For state management used Bloc library
-Also there's Env variables set-up inside env folder, to set configs from file you should run it
-using this command "flutter run --dart-define-from-file=env/prod.json"
 
 ## Crashlytics
 
 I've also added Crashlytics for crash reporting, you just need to provide sentrySDN
+
+## Environment variables
+Also there's Env variables set-up inside env folder, to set configs from file you should run it
+using this command "flutter run --dart-define-from-file=env/prod.json"
+but app will work even if you run with just flutter run, because in environment_configs fallback values are provided
 
 ## Testing
 
